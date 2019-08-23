@@ -15,6 +15,7 @@ public class GetInstructorCoursesDemo
 
 	public static void main(String[] args) 
 	{
+		//hello
 		//Create session factory 
 		SessionFactory factory = new Configuration()
 								.configure("hibernate.cfg.xml")
