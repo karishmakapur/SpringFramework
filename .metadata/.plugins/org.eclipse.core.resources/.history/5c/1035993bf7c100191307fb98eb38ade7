@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<form action="processForm" method="GET">
+			<input type="type" name="studentName"
+					placeholder = "What's your name"/>
+					
+			<input type-"submit" />
+			
+		</form>
+
+	</head>
+</html>

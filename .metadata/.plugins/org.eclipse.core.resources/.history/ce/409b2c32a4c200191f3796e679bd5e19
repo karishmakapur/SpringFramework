@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Student Confirmation</title>
+		
+	</head>
+	
+	<body>
+		The student is confirmed: ${student.firstName} ${student.lastName}
+		<!-- Will call student.getFirstName() and student.getLastName() -->
+	
+		<br><br>
+		
+		Country: ${student.country} <!-- will call student.getCountry() -->
+	
+		<br> <br>
+		
+		Favorite Language: ${student.favoriteLanguage}"
+		
+	</body>
+	
+</html>

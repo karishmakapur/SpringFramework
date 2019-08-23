@@ -1,0 +1,57 @@
+package com.luv2code.hibernate.demo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.luv2code.hibernate.demo.entity.Employee;;
+
+public class employeeMain 
+{
+	public static void main(String[] args) 
+	{
+		//Create session factory 
+		SessionFactory factory = new Configuration()
+										.configure("hibernate.cfg.xml")
+										.addAnnotatedClass(Employee.class)
+										.buildSessionFactory();
+		//Create session
+		Session session = factory.getCurrentSession();
+		
+		try {
+			
+		}
+		finally
+		{
+
+	//DEVELOP CODE TO SAVE OBJECTS
+			//start a transaction
+			session.beginTransaction();
+				
+			//create Employee objects
+			Employee emp1 = new Employee("John", "Doe", "Apply Inc.");
+			Employee emp2 = new Employee("Johnny", "Appleseed", "Microsoft");
+			Employee emp3 = new Employee("Mary", "Pippins", "Northrop");
+			Employee emp4 = new Employee("Larry", "Seinfield", "Nike");
+			Employee emp5 = new Employee("Mike", "Lows", "Adidas");
+			
+			// save the employee objects
+			System.out.println("Saving the Employees...");
+			session.save(emp1);
+			session.save(emp2);
+			session.save(emp3);
+			session.save(emp4);
+			session.save(emp5);
+			
+			//commit transaction
+			session.getTransaction().commit();
+			
+			//start a transaction
+			session.beginTransaction();
+	
+	//DEVELOP CODE TO RETRIEVE AN OBJECT BY ITS PRIMARY KEY
+			
+		}
+				
+	}
+}

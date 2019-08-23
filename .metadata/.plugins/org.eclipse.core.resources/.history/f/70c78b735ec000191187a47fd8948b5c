@@ -1,0 +1,18 @@
+package com.luv2code.springdemo;
+
+public class BasketballCoach implements Coach
+{
+
+	//override methods == implementation of Coach interface
+	@Override
+	public String getDailyWorkout() {
+		return "Do 100 free throws";
+	}
+
+	@Override
+	public String getDailyFortune() 
+	{
+		return null;
+	}
+
+}

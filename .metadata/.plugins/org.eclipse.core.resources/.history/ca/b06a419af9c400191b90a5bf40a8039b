@@ -1,0 +1,91 @@
+package com.luv2code.hibernate.demo.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+//map table to db table
+@Entity
+@Table(name="instructor")
+public class Instructor 
+{
+
+	//Define fields and annotate with column names in db
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="id")
+	private int id;
+	
+	@Column(name="first_name")
+	private String firstName;
+	
+	@Column(name="last_name")
+	private String lastName;
+	
+	@Column(name="email")
+	private String email;
+	
+	@Column(name="instructor_detail_id")
+	private int instructorDetailId;
+
+	//Generate constructors
+	public Instructor()
+	{
+		
+	}
+	
+	public Instructor(int id, String firstName, String lastName, String email, int instructorDetailId) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.instructorDetailId = instructorDetailId;
+	}
+
+	//Generate Getters and Setters
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public int getInstructorDetailId() {
+		return instructorDetailId;
+	}
+
+	public void setInstructorDetailId(int instructorDetailId) {
+		this.instructorDetailId = instructorDetailId;
+	}
+
+	//Generate toString() method
+	@Override
+	public String toString() {
+		return "Instructor [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", instructorDetailId=" + instructorDetailId + "]";
+	}
+	
+	
+	
+}

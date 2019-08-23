@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<form action="processForm" method="GET"> 
+			<input type="type" name="studentName" <!-- text box for user -->
+					placeholder = "What's your name"/> <!-- Prompt user for their name -->
+					
+			<input type="submit" /> <!-- Submit button -->
+			
+		</form>
+
+	</head>
+</html>

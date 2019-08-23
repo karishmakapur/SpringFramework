@@ -1,0 +1,2 @@
+typeMismatch.customer.freePasses = Invalid Number
+! error type - attribute name - field name - custom message
