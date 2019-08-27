@@ -1,4 +1,6 @@
 #Tomcat publish data
-#Tue Aug 20 11:00:18 PDT 2019
+#Mon Aug 26 11:51:49 PDT 2019
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\karis\\eclipse-workspace\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.1.9.RELEASE.jar=WEB-INF/lib/spring-web-5.1.9.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\karis\\eclipse-workspace\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.1.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.9.RELEASE-sources.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\karis\\eclipse-workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.1.9.RELEASE.jar=WEB-INF/lib/spring-web-5.1.9.RELEASE.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\karis\\eclipse-workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.1.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.9.RELEASE-sources.jar
