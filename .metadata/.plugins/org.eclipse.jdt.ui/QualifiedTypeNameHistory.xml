@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.validation.constraints.Pattern"/>
-<fullyQualifiedTypeName name="javax.validation.Constraint"/>
-<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
-<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
-<fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
-<fullyQualifiedTypeName name="javax.validation.Payload"/>
-<fullyQualifiedTypeName name="javax.validation.ConstraintValidator"/>
 <fullyQualifiedTypeName name="com.luv2code.springdemo.mvc.validation.CourseCode"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
@@ -50,14 +42,22 @@
 <fullyQualifiedTypeName name="com.luv2code.springdemo.service.CustomerService"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="com.luv2code.aopdemo.dao.AccountDAO"/>
-<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="com.luv2code.aopdemo.dao.MembershipDAO"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.reflect.MethodSignature"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.luv2code.aopdemo.Account"/>
-<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="com.luv2code.aopdemo.service.TrafficFortuneService"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
+<fullyQualifiedTypeName name="com.sun.istack.internal.logging.Logger"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
 </qualifiedTypeNameHistroy>
