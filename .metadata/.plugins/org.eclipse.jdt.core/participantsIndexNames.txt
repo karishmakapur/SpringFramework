@@ -3,10 +3,10 @@ C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \spring-security-demo\src\main\java
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3636775408.index
 \spring-security-demo-04-bootstrap-login-form\src\main\java
-C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2178144631.index
-\web-customer-tracker-aop\src
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3469264943.index
 \spring-security-demo-07-user-roles\src\main\java
+C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2178144631.index
+\web-customer-tracker-aop\src
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4090230224.index
 \spring-security-demo-03-custom-login-form\src\main\java
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\237508677.index
@@ -15,10 +15,14 @@ C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \spring-security-demo-02-basic-security\src\main\java
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\715998994.index
 \mycoolwebapp\src\main\resources
+C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1476910352.index
+\spring-security-demo-08-jdbc-plaintext\src\main\java
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\796538011.index
 \spring-security-demo-06-csrf\src\main\java
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4261569207.index
 \web-customer-tracker\src
+C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2808932448.index
+\spring-security-demo-09-jdbc-bcrypt\src\main\java
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3659304352.index
 \web-customer-tracker-aop\src
 C:\Users\karis\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3862151852.index
